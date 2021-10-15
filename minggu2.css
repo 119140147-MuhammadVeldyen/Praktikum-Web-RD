@@ -1,0 +1,70 @@
+header{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  #fefbd8;
+}
+nav{
+	color: white;
+	margin:auto;
+    text-align: center;
+    width: 100%;
+    background-color: #FF6600;
+    padding: 10px;
+
+}
+.navbar a {
+ 	float: left;
+ 	padding: 10px;
+  	color: white;
+  	text-decoration: none;
+  	font-size: 17px;
+  	width: 25%;
+ }
+.navbar a:hover {
+  	background-color: #DF2E2E;
+ }
+
+.navbar a.active {
+  	background-color: #f7786b;
+}
+
+.navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+ }
+
+.konten{
+	display: flex;
+    height: auto;
+    width: auto;
+}
+
+#biodata{
+	background-color: #DE9C59;
+    height: auto;
+    width: 70%;
+    padding: 20px;
+    align-content: center;
+}
+
+#berita{
+	background-color: #ffcc80;
+    height: auto;
+    width: 30%;
+    padding: 20px;
+}
+
+footer{
+    background-color: #FF6600;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
