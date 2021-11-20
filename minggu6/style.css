@@ -1,0 +1,67 @@
+*{
+	margin : 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.container{
+	margin: 130px auto;
+	width: 450px;
+	height: auto;
+}
+
+header{
+	background-color: rgb(166, 206, 101);
+	height: 30px;
+	display: flex;
+	align-items: center;
+    font-family: 'Gill Sans MT';
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.body{
+	display: flex;
+	height: auto;
+	width: auto;
+}
+div{
+	border: 1px solid black;
+}
+
+form{
+	background-color: rgb(255, 255, 255);
+}
+button{
+	background-color: rgb(167, 165, 165);
+    font-family: 'Gill Sans MT';
+    width: 100px;
+    margin-left: 20%;
+    margin-right: 80%;
+}
+input{
+	background-color: rgb(167, 165, 165);
+    width:65%;
+    float: right;
+}
+p{
+	background-color: rgb(255, 254, 254);
+	text-align: left;
+    font-family: 'Gill Sans MT';
+}
+h4{
+	background-color: rgb(166, 206, 101);
+    font-family: 'Gill Sans MT';
+	text-align: left;
+    border: 2px solid black;
+}
+footer {
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(166, 206, 101);
+  color: rgb(2, 2, 2);
+  text-align: center;
+  border: 2px solid black;
+  font-family: 'Gill Sans MT';
+}

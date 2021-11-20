@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <title>TOKO BUAH</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    body {
+        background-image: url('buah.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="container">
+    <header><h2>TOKO BUAH</h2></header>
+    <section>
+        <div>
+            <form action="tokobuah.php" method="POST" id="belanja" name="belanja" enctype="multipart/form">
+                <br>
+                <label align-items: center;" for=""><pre style="font-family: 'Gill Sans MT';">Mangga  </label><input type="text" id="mangga" onchange="setValue()" name="mangga" placeholder="Rp 15000/Kg" style="font-family: 'Gill Sans MT';"></pre> <br>
+                <label for=""><pre style="font-family: 'Gill Sans MT';">Jambu   </label><input type="text" id="jambu" onchange="setValue()" name="jambu" placeholder="Rp 13000/Kg" style="font-family: 'Gill Sans MT';"></pre> <br>
+                <label for=""><pre style="font-family: 'Gill Sans MT';">salak   </label><input type="text" id="salak" onchange="setValue()" name="salak" placeholder="Rp 10000/Kg" style="font-family: 'Gill Sans MT';"></pre> <br>
+                <label for=""><pre style="font-family: 'Gill Sans MT';">Harga Total </label><input id="total" name="total" readonly> <br>
+                <button id="submit" name="">NOTA</button>
+            </form>
+        </div>
+    </section>
+    </table>
+   </div>
+   
+</body>
+<script>
+    function setValue(){
+        var total = document.getElementById("total");
+        var mangga = document.getElementById("mangga").value * 15000;
+        var jambu = document.getElementById("jambu").value * 13000;
+        var salak = document.getElementById("salak").value * 10000;
+        console.log(mangga + jambu + salak);
+        var hasil = mangga + jambu + salak;
+        total.value = hasil;
+    }
+</script>
+<footer>
+        Copyright &copy; Muhammad Veldyen<br>
+</footer>
+</html>
